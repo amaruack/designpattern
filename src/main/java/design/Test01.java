@@ -1,10 +1,10 @@
-package Design;
+package design;
 
 /**
- * ÆÄ  ÀÏ  ¸í :		Test01.java
- * ¼³       ¸í :		Design pattern - iterator ¿¹Á¦
- * ÀÛ  ¼º  ÀÚ :		¼Õ¿µÁØ
- * ÀÛ¼º ÀÏ½Ã : 	2012.10.05
+ * ï¿½ï¿½  ï¿½ï¿½  ï¿½ï¿½ :		Test01.java
+ * ï¿½ï¿½       ï¿½ï¿½ :		Design pattern - iterator ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½  ï¿½ï¿½  ï¿½ï¿½ :		ï¿½Õ¿ï¿½ï¿½ï¿½
+ * ï¿½Û¼ï¿½ ï¿½Ï½ï¿½ : 	2012.10.05
  */
 
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ public class Test01 {
 	 
 	 public static void main(String[] args) {
 		  MagicianList magicians = new MagicianList();
-		  magicians.add("¼Õ¿µÁØ");
+		  magicians.add("ï¿½Õ¿ï¿½ï¿½ï¿½");
 		  magicians.add("son young jun");
 		  
 		  Iterator<String> iterator = magicians.iterator();

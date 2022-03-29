@@ -1,12 +1,12 @@
-package Design;
+package design;
 
 /**
- * ÆÄ  ÀÏ  ¸í :		Test02.java
- * ¼³       ¸í :		Design pattern - Factory Method ÆĞÅÏ ¿¹Á¦
- * ÀÛ  ¼º  ÀÚ :		¼Õ¿µÁØ
- * ÀÛ¼º ÀÏ½Ã : 	2012.10.05
+ * íŒŒ  ì¼  ëª… :		Test02.java
+ * ì„¤       ëª… :		Design pattern - Factory Method íŒ¨í„´ ì˜ˆì œ
+ * ì‘  ì„±  ì :		mr.son
+ * ì‘ì„± ì¼ì‹œ : 	2012.10.05
  * 
- * Abstract class³ª ÀÎÅÍÆäÀÌ½º¿¡ ´ëÇØ¼­ ´Ù¾çÇÑ ÇÏÀ§ ±¸ÇöÃ¼°¡ ÀÖÀ» °æ¿ì¿¡ »ç¿ëÇÏ¸é ÁÁ½À´Ï´Ù. »ç¿ë¹ıÀº Factory.create(ÀÎÀÚ´Â ¸¾´ë·Î) ¿Í °°ÀÌ µË´Ï´Ù.
+ * Abstract classë‚˜ ì¸í„°í˜ì´ìŠ¤ì— ëŒ€í•´ì„œ ë‹¤ì–‘í•œ í•˜ìœ„ êµ¬í˜„ì²´ê°€ ìˆì„ ê²½ìš°ì— ì‚¬ìš©í•˜ë©´ ì¢‹ìŠµë‹ˆë‹¤. ì‚¬ìš©ë²•ì€ Factory.create(ì¸ìëŠ” ë§˜ëŒ€ë¡œ) ì™€ ê°™ì´ ë©ë‹ˆë‹¤.
  */
 
 interface Animal{
@@ -37,19 +37,19 @@ class Cat implements Animal{
 	@Override
 	public void printDescription() {
 		// TODO Auto-generated method stub
-		System.out.println("°í¾çÀÌ ÀÔ´Ï´Ù.~");
+		System.out.println("ê³ ì–‘ì´ ì…ë‹ˆë‹¤.~");
 	}	
 }
 
 class Cow implements Animal{
 	public void printDescription() {
-		System.out.println("¼Ò¿À ÀÔ´Ï´Ù.");
+		System.out.println("ì†Œì˜¤ ì…ë‹ˆë‹¤.");
 	}
 }
 
 class Dog implements Animal{
 	public void printDescription(){
-		System.out.println("°³¿¡¿¡~");
+		System.out.println("ê°œì—ì—~");
 	}
 }
 

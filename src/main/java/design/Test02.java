@@ -1,4 +1,4 @@
-package Design;
+package design;
 
 import java.util.ArrayList;
 import java.util.Enumeration;
@@ -6,10 +6,10 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * ÆÄ  ÀÏ  ¸í :		Test02.java
- * ¼³       ¸í :		Design pattern - adapter ¿¹Á¦
- * ÀÛ  ¼º  ÀÚ :		¼Õ¿µÁØ
- * ÀÛ¼º ÀÏ½Ã : 	2012.10.05
+ * ï¿½ï¿½  ï¿½ï¿½  ï¿½ï¿½ :		Test02.java
+ * ï¿½ï¿½       ï¿½ï¿½ :		Design pattern - adapter ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½  ï¿½ï¿½  ï¿½ï¿½ :		ï¿½Õ¿ï¿½ï¿½ï¿½
+ * ï¿½Û¼ï¿½ ï¿½Ï½ï¿½ : 	2012.10.05
  */
 
 class IteratorToEnumeration implements Enumeration<String> {
@@ -56,7 +56,7 @@ public class Test02 {
 	
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<String>();
-		list.add("¼Õ");
+		list.add("ï¿½ï¿½");
 		list.add("dudwisdofij");
 		
 		Enumeration<String> ite = new IteratorToEnumeration(list.iterator());

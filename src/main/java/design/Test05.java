@@ -1,10 +1,10 @@
-package Design;
+package design;
 
 /**
- * ÆÄ  ÀÏ  ¸í :		Test05.java
- * ¼³       ¸í :		Design pattern - Singleton  ¿¹Á¦
- * ÀÛ  ¼º  ÀÚ :		¼Õ¿µÁØ
- * ÀÛ¼º ÀÏ½Ã : 	2012.10.08
+ * ï¿½ï¿½  ï¿½ï¿½  ï¿½ï¿½ :		Test05.java
+ * ï¿½ï¿½       ï¿½ï¿½ :		Design pattern - Singleton  ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½  ï¿½ï¿½  ï¿½ï¿½ :		ï¿½Õ¿ï¿½ï¿½ï¿½
+ * ï¿½Û¼ï¿½ ï¿½Ï½ï¿½ : 	2012.10.08
  * 
  */
 
@@ -13,8 +13,8 @@ public class Test05 {
 	
 }
 
-//½Ì±ÛÅæ ¿¹Á¦  1
-//¼º´ÉÀÌ ÁÁ´Ù
+//ï¿½Ì±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½  1
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 class Singleton1 {
 	private static Singleton1 single = new Singleton1();
 	public static Singleton1 getInstance(){
@@ -24,8 +24,8 @@ class Singleton1 {
 	}
 }
 
-//½Ì±ÛÅæ ¿¹Á¦ 2
-//¾ÈÀüÇÏÁö¸¸ ´À¸®´Ù
+//ï¿½Ì±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 2
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 class Singleton2 {
 	private static Singleton2 single;
 	public static synchronized Singleton2 getInstance(){
@@ -38,9 +38,9 @@ class Singleton2 {
 	}
 }
 
-//½Ì±ÛÅæ ¿¹Á¦ 3
-//volatile Å°¿öµåµµ ²À ½áÁà¾ß ÇÕ´Ï´Ù. volatile Å°¿öµå´Â º¯¼öÀÇ ¿øÀÚ¼ºÀ» º¸ÀåÇÕ´Ï´Ù
-//¸ÖÆ¼ ¾²·¹µå¿¡ ¾ÈÀüÇÏ´Ù 
+//ï¿½Ì±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 3
+//volatile Å°ï¿½ï¿½ï¿½åµµ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Õ´Ï´ï¿½. volatile Å°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½
+//ï¿½ï¿½Æ¼ ï¿½ï¿½ï¿½ï¿½ï¿½å¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ 
 class Singleton3 {
 	private volatile static Singleton3 single;
 	
@@ -59,8 +59,8 @@ class Singleton3 {
 	}
 }
 
-//½ÌÅ¬Åæ ¿¹Á¦4
-//³»ºÎ °´Ã¼ ÀÌ¿ë 
+//ï¿½ï¿½Å¬ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½4
+//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½Ì¿ï¿½ 
 class Singleton4 {
 	private Singleton4(){
 		

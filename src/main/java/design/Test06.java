@@ -1,12 +1,12 @@
-package Design;
+package design;
 
 /**
- * ÆÄ  ÀÏ  ¸í :		Test06.java
- * ¼³       ¸í :		Design pattern - Strategy  ¿¹Á¦
- * ÀÛ  ¼º  ÀÚ :		¼Õ¿µÁØ
- * ÀÛ¼º ÀÏ½Ã : 	2012.10.08
+ * ï¿½ï¿½  ï¿½ï¿½  ï¿½ï¿½ :		Test06.java
+ * ï¿½ï¿½       ï¿½ï¿½ :		Design pattern - Strategy  ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½  ï¿½ï¿½  ï¿½ï¿½ :		ï¿½Õ¿ï¿½ï¿½ï¿½
+ * ï¿½Û¼ï¿½ ï¿½Ï½ï¿½ : 	2012.10.08
  * 
- * Mart´Â ¸â¹ö º¯¼ö·Î Seller¸¦ °¡Áý´Ï´Ù. Mart¿¡¼­ °¡Áö´Â Seller¸¦ ¹Ù²ãÄ¡±âÇÔÀ¸·Î½á MartÀÇ order()¿¡¼­ ½ÇÁ¦ ½ÇÇàµÇ´Â ·ÎÁ÷ÀÌ ´Þ¶óÁú ¼ö ÀÖ½À´Ï´Ù.
+ * Martï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Sellerï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. Martï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Sellerï¿½ï¿½ ï¿½Ù²ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î½ï¿½ Martï¿½ï¿½ order()ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¶ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.
  */
 
 public class Test06 {
@@ -30,7 +30,7 @@ class CupSeller implements Seller{
 	@Override
 	public void sell() {
 		// TODO Auto-generated method stub
-		System.out.println("ÄÅ ÆÈ¾Æ¿ä");
+		System.out.println("ï¿½ï¿½ ï¿½È¾Æ¿ï¿½");
 	}
 	
 }
@@ -40,7 +40,7 @@ class PhoneSeller implements Seller{
 	@Override
 	public void sell() {
 		// TODO Auto-generated method stub
-		System.out.println("Æù ÆÈ¾Æ¿ä");
+		System.out.println("ï¿½ï¿½ ï¿½È¾Æ¿ï¿½");
 	}
 	
 }

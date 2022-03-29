@@ -1,4 +1,4 @@
-package Design;
+package design;
 
 import java.util.Date;
 
@@ -30,7 +30,7 @@ class Complex implements Cloneable{
 
 public class Test12 {
     public static void main(String[] args) {
-        Complex com = new Complex("¸Å¿ì º¹ÀâÇÑ Á¤º¸");
+        Complex com = new Complex("ï¿½Å¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         try {
             Complex cloned1 = (Complex)com.clone();
             cloned1.setDate(new Date(2008,0,1));
